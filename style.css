@@ -1,0 +1,403 @@
+body {
+    overflow-x: hidden;
+    font-family: monospace;
+    overflow-x: hidden;
+  }
+
+  .one {
+    position:absolute;
+  }
+  .two {
+    position:absolute;
+    right:0;
+  }
+  .three {
+    position:absolute;
+    bottom:0;
+  }
+
+  .corners {
+    background-color: rgba(194, 194, 194, 0.344);
+    color:rgb(167, 167, 167);
+    position: absolute;
+    font-family: monospace;
+    font-size: x-small;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+
+  .acorners {
+    background-color: rgba(194, 194, 194, 0.344);
+    color:rgb(167, 167, 167);
+    position: absolute;
+    font-family: monospace;
+    font-size: x-small;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+  .acorners:hover {
+    background-color: rgba(194, 194, 194, 0.344);
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    font-family: monospace;
+    font-size: x-small;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    border-radius: 5px;
+  }
+
+  .description {
+    color:rgb(167, 167, 167);
+    text-align:center;
+    font-family: monospace;
+    font-size: medium;
+    margin-top:35px;
+  }
+  
+  main {
+    position: absolute;
+    width: 100%;
+  }
+
+  .content {
+    position: absolute;
+    width: 100%;
+    padding-top:50vh;
+  }
+  
+  main2 {
+    position: absolute;
+    width: 100%;
+    overflow-x:hidden;
+  }
+
+  .endlink {
+    padding: 2px 5px;
+    text-decoration: none;
+    font-size: x-small;
+    background-color: rgba(131, 131, 131, 0.344);
+    border-radius: 5px;
+    color:black;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-family: monospace;
+    transition: all .3s ease-in-out;
+  }
+
+  .endlink:hover {
+    color:white;
+    background-color: rgba(79, 79, 79, 0.344);
+    text-decoration: none;
+    transition: all .3s ease-in-out;
+  }
+
+  .jump {
+    color:rgb(167, 167, 167);
+    text-decoration: none;
+    padding: 3px 3px;
+    transition: all .3s ease-in-out;
+  }
+  .jump:hover {
+    color:white;
+    text-decoration:none;
+    font-weight: bolder;
+  }
+
+  .jumpb {
+    color:black;
+    text-decoration: none;
+    padding: 3px 3px;
+    transition: all .3s ease-in-out;
+  }
+  .jumpb:hover {
+    color:white;
+    text-decoration:none;
+  }
+  
+  a {
+    color: black;
+    transition: all .3s ease-in-out;
+  }
+  .link {
+    color:black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    transition: all .3s ease-in-out;
+  }
+  
+  ::placeholder {
+    color: blue;
+  }
+  
+  .cascade {
+    padding-right: 40%;
+  }
+  
+  ascii-art {
+    display: block;
+    white-space: pre;
+    line-height: 90%;
+    font-size: 4px;
+  }
+  
+  .sec {
+    text-overflow: hidden;
+    padding-right: 25px;
+    margin-bottom: 50vh;
+    margin-right: 50%;
+    text-align: right;
+    background-color:rgba(0, 0, 0, 0.262);
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: rgb(0, 0, 0);
+    white-space: pre-line;
+    transition: all 1.5s ease 0s;
+  }
+  .sec:hover {
+    background-color:rgba(0, 0, 0, 0.402);
+    transition: all 1.5s ease 0s;
+  }
+  
+  @media (max-width: 768px) {
+    .sec {
+      font-size: 12px;
+      width: 80%;
+      margin: auto;
+    }
+
+    .endlink {
+        padding: 2px 5px;
+        text-decoration: none;
+        font-size: xx-small;
+        background-color: rgba(131, 131, 131, 0.344);
+        border-radius: 5px;
+        color:black;
+        margin-top:10px;
+        margin-bottom:10px;
+        font-family: monospace;
+        transition: all .5s ease-in-out;
+      }
+
+      .description {
+        padding-left:15vw;
+        padding-right:15vw;
+      }
+  }
+  
+  label {
+    font-size: 20px;
+    font-family: monospace;
+  }
+  
+  console {
+    padding-left: 5px;
+    padding-top: 5px;
+    font-size: 10px;
+    position: absolute;
+    color:rgb(168, 168, 168);
+    left: 0;
+    top: 0;
+    height: 100%;
+    overflow-y: hidden;
+  }
+  
+  canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .centered {
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    padding-top: 40vh;
+    text-align: center;
+  }
+  
+  .centered2 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+  .centered3 {
+    font-family: serif;
+    width: 30vh;
+    height: 30vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+  @media only screen and (max-width: 600px) {
+    .centered3 {
+        width: 30vw;
+        height: 30vw;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .corners {
+        background-color: rgba(194, 194, 194, 0.344);
+        color:rgb(167, 167, 167);
+        position: absolute;
+        font-family: monospace;
+        font-size: xx-small;
+        margin: 10px 10px;
+        padding: 10px 10px;
+        border-radius: 5px;
+      }
+  }
+  
+  .progressbar {
+    position: relative;
+    max-width: 100px;
+    width: 100%;
+    margin: 30px auto 0;
+    height: 3px;
+    background: #151515;
+    overflow: hidden;
+  }
+  span.progress {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 0;
+    background: #ffffff;
+    transition: all .3s;
+    border-radius: 0%;
+  }
+  
+  .overlay{
+    opacity:1;
+    background-color:rgb(0, 0, 0);
+    position:fixed;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    z-index:1000;
+  }
+  
+  button {
+      padding: 8px 15px;
+      background-color: #fafafa3a;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: all 0.5s ease 0s;
+      color:rgb(255, 255, 255)
+    }
+    
+    button:hover {
+      background-color: rgb(229, 104, 31);
+      color:rgb(0, 0, 0);
+    }
+  
+    .top-nav-link {
+      margin: 20px;
+      color: white;
+      font-size: 12px;
+      transition: 0.5s;
+      text-decoration: none;
+    }
+  
+    .top-nav-link:hover {
+      margin: 20px;
+      color: rgb(229, 104, 31);
+      font-size: 20px;
+      text-decoration: none;
+    }
+  
+    .top-nav-button {
+      padding: 8px 15px;
+      background-color: #fafafa3a;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: all 0.5s ease 0s;
+      color:rgb(255, 255, 255);
+      font-size: 12px;
+    }
+    .top-nav-button:hover {
+      padding: 10px 18px;
+      background-color: rgb(229, 104, 31);
+      color:rgb(0, 0, 0);
+    }
+  
+  
+  
+  
+  /* blackjack css */
+  
+  .center-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    flex-direction: column;
+    font-family: monospace;
+    height:100px;
+    width:100px;
+    padding: 0px 0px;
+    border-radius: 10px;
+  }
+  .window {
+    background-color:rgba(0, 0, 0, 0.301);
+    border-radius: 10px;
+    transition: 1s ease-out;
+    height: 100px;
+    width: 100px;
+    padding: 0px 0px;
+  }
+  .window:hover {
+    color:white;
+    border-radius: 10px;
+  }
+  
+  
+  /* amphitheater css */
+  
+  .poast {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    min-height: 100px;
+    overflow-x: hidden;
+    white-space: pre-line;
+    color:black;
+  }
+  .poast-header {
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(17, 195, 195);
+    padding-bottom:0px;
+  }
+  .poast-footer {
+    width:100%;
+    font-size: 9px;
+    background-color: rgb(255, 255, 255);
+    color:rgb(17, 195, 195);
+    text-align: right;
+  }
+  .poast-outline {
+    background-color: rgb(17, 195, 195);
+    width: 200px;
+    padding-bottom: 1px;
+    font-family: monospace;
+  }
